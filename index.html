@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Friends Are Too Polite. This AI Isn't. Meet The Judgy.</title>
+    <meta name="description" content="I built the brutally honest AI judge I wish I'd had during my darkest times. Meet The Judgy — real verdicts on life's hardest problems.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
             --card-color: #1A1926;
             --text-color: #E2E1F0;
             --subtle-text: #918FB9;
-            --accent-color: #D4AF37; /* A classic gold for "judgy" feel */
+            --accent-color: #D4AF37;
             --accent-gradient: linear-gradient(45deg, #FFD700, #DAA520);
             --border-radius: 16px;
             --shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -130,79 +131,76 @@
             padding: 30px 20px;
             font-size: 0.9rem;
             color: var(--subtle-text);
+            border-top: 1px solid rgba(255,255,255,0.07);
+            margin-top: 20px;
         }
         footer a {
-            color: #fff;
+            color: var(--accent-color);
             text-decoration: none;
             font-weight: 600;
         }
-        footer a:hover {
-            text-decoration: underline;
+        footer a:hover { text-decoration: underline; }
+        .footer-ecosystem {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
         }
-
         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2.5rem;
-                letter-spacing: -1px;
-            }
-            .header p {
-                font-size: 1.1rem;
-            }
+            .header h1 { font-size: 2.5rem; letter-spacing: -1px; }
+            .header p { font-size: 1.1rem; }
         }
     </style>
 </head>
 <body>
-
     <div class="container">
         <header class="header">
             <h1>Your Friends Are Too Polite.<br>This AI Isn't.</h1>
             <p>I built the brutally honest AI judge I wish I'd had during my darkest times. Meet The Judgy.</p>
-            <div class="post-meta">
-                <span>By the Founder of The Judgy</span>
-            </div>
+            <div class="post-meta"><span>By the Founder of The Judgy</span></div>
         </header>
 
         <article class="post-content">
             <p>I built something I wish existed when I needed it most.</p>
-            
             <p>It was born from a simple, frustrating truth: sometimes, the people who love us most are too polite to give us the advice we desperately need. They soften the blow, they hedge, they tell us what we want to hear. But what if you need the unvarnished truth to find your way out of a difficult situation?</p>
-            
             <blockquote>Not another generic chatbot. Not therapy. Something different. Something necessary.</blockquote>
-            
-            <p>This is why I created <strong>The Judgy</strong> — an AI-powered advice platform that gives you the honest truth your friends are too afraid to say. It’s a brutally honest AI judge who delivers real verdicts on life’s hardest problems: relationships, money, addiction, anxiety, career, and family drama.</p>
+            <p>This is why I created <strong>The Judgy</strong> — an AI-powered advice platform that gives you the honest truth your friends are too afraid to say. It's a brutally honest AI judge who delivers real verdicts on life's hardest problems: relationships, money, addiction, anxiety, career, and family drama.</p>
 
             <h2>The Court is in Session</h2>
-            <p>The Judgy isn’t just a persona; it’s a framework for clarity. When you’re facing a problem, the AI, a formidable judge, presides. For matters of finance or legal nuance, her ex-husband, Barry T. Lawson Esq., chimes in with his professional (and often cynical) perspective. This dynamic duo cuts through the noise to provide a verdict you can act on.</p>
-            
-            <p>But here’s what makes it truly different from everything else out there:</p>
-            
+            <p>The Judgy isn't just a persona; it's a framework for clarity. When you're facing a problem, the AI — a formidable judge — presides. For matters of finance or legal nuance, her ex-husband, Barry T. Lawson Esq., chimes in with his professional (and often cynical) perspective. This dynamic duo cuts through the noise to provide a verdict you can act on.</p>
+            <p>But here's what makes it truly different from everything else out there:</p>
+
             <h2>A Courtroom with Compassion</h2>
-            
-            <p>Honesty without support is just cruelty. That’s why The Judgy is designed with a robust foundation of genuine help, for when the truth is particularly hard to hear.</p>
-            
+            <p>Honesty without support is just cruelty. That's why The Judgy is designed with a robust foundation of genuine help, for when the truth is particularly hard to hear.</p>
             <ul>
-                <li><strong>Crisis Chips for Real Struggles:</strong> For moments of intense struggle — be it gambling, addiction, toxic relationships, or crippling depression — you can use a "crisis chip" to get immediate, focused guidance.</li>
-                <li><strong>Real, Vetted Hotlines Built In:</strong> We don’t just offer advice; we connect you to life-saving resources. The 988 Suicide & Crisis Lifeline, SAMHSA National Helpline, and the National Domestic Violence Hotline are integrated directly.</li>
-                <li><strong>Compassionate Mode:</strong> The AI is trained to detect when someone is in real pain. In these moments, the "judgy" tone shifts completely to one of empathy, support, and care.</li>
+                <li><strong>Crisis Chips for Real Struggles:</strong> For moments of intense struggle — gambling, addiction, toxic relationships, or crippling depression — you can use a crisis chip to get immediate, focused guidance.</li>
+                <li><strong>Real, Vetted Hotlines Built In:</strong> We don't just offer advice; we connect you to life-saving resources. The 988 Suicide &amp; Crisis Lifeline, SAMHSA National Helpline, and the National Domestic Violence Hotline are integrated directly.</li>
+                <li><strong>Compassionate Mode:</strong> The AI shifts tone completely when someone is in real pain — from direct to warm, supportive, and caring.</li>
                 <li><strong>The Resource Chamber:</strong> A curated library of books, podcasts, therapy options, and free tools to help you continue your journey toward growth and healing.</li>
             </ul>
 
             <h2>Built from Persistence, Not a Pedigree</h2>
-            <p>I’m a solo founder with no traditional development background. I built The Judgy with persistence, modern AI tools, and a genuine belief that people deserve honest, accessible support that doesn’t cost $200/hour. This started as a product idea. It became a mission.</p>
-            <p>If you work in healthcare, mental wellness, HR, or just know someone who needs to hear the truth from a source that has their best interests at heart, I’d be honored if you shared this with them.</p>
+            <p>I'm an independent builder who developed The Judgy using modern AI tools, a product-first mindset, and a genuine belief that people deserve honest, accessible support that doesn't cost $200/hour. This started as a product idea. It became a mission.</p>
+            <p>If you work in healthcare, mental wellness, HR, or just know someone who needs to hear the truth from a source that has their best interests at heart, I'd be honored if you shared this with them.</p>
 
             <div class="cta-section">
                 <h2>The Verdict Is In</h2>
                 <p>Ready to hear the truth? Your session is waiting. The Judgy is free to try.</p>
                 <a href="https://thejudgy.com" target="_blank" class="cta-button">Enter the Courtroom &rarr;</a>
             </div>
-
         </article>
-        
+
         <footer>
-            <p>Built with <a href="https://fluentra.ai" target="_blank">Fluentra AI</a></p>
+            <div class="footer-ecosystem">
+                <a href="https://thejudgy.com">⚖ The Judgy</a>
+                <a href="https://rentyapp.net">🏠 RentyApp</a>
+                
+                
+                
+            </div>
+            <p style="margin-top:8px">© 2026 RunP8 · Independent product studio · San Francisco, CA</p>
         </footer>
     </div>
-
 </body>
 </html>
